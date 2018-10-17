@@ -30,3 +30,9 @@ param1 – 크면 클수록 원이 적개 잡힘, 원 중심 잡는 thresh hold 
 param2 – 크면 클수록 원이 적게 잡힘  
 minRadius – Minimum circle radius.  
 maxRadius – Maximum circle radius.  
+
+
+결과
+===
+eye.jpg 입력해서  
+circled_eye.jpg 출력  
