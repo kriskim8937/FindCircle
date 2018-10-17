@@ -5,6 +5,8 @@ Find a circle in the picture with Python
 ======================
 HoughCircles(image, method, dp, minDist[, circles[, param1[, param2[, minRadius[, maxRadius]]]]]) → circles  
 Parameters:	  
+
+
 image – 8-bit, single-channel, grayscale input image.    
 circles – Output vector of found circles. Each vector is encoded as a 3-element floating-point vector  (x, y, radius) .  
 circle_storage – In C function this is a memory storage that will contain the output sequence of found circles.  
