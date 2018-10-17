@@ -1,10 +1,11 @@
 # FindCircle
 Find a circle in the picture with Python 
 
-#다음의 open CV 함수 사용
-HoughCircles(image, method, dp, minDist[, circles[, param1[, param2[, minRadius[, maxRadius]]]]]) → circles
-Parameters:	
-image – 8-bit, single-channel, grayscale input image.
+다음의 open CV 함수 사용
+======================
+HoughCircles(image, method, dp, minDist[, circles[, param1[, param2[, minRadius[, maxRadius]]]]]) → circles  
+Parameters:	  
+image – 8-bit, single-channel, grayscale input image.  
 circles – Output vector of found circles. Each vector is encoded as a 3-element floating-point vector  (x, y, radius) .
 circle_storage – In C function this is a memory storage that will contain the output sequence of found circles.
 method – Detection method to use. Currently, the only implemented method is CV_HOUGH_GRADIENT , which is basically 21HT , described in [Yuen90].
@@ -15,6 +16,8 @@ param2 – Second method-specific parameter. In case of CV_HOUGH_GRADIENT , it i
 minRadius – Minimum circle radius.
 maxRadius – Maximum circle radius.
 
+번역
+====
 image – 흑백 처리된 사진만 사용가능
 circles – Output vector of found circles. Each vector is encoded as a 3-element floating-point vector  (x, y, radius) .
 circle_storage – In C function this is a memory storage that will contain the output sequence of found circles.
