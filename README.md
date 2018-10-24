@@ -27,7 +27,7 @@ method – CV_HOUGH_GRADIENT 메소드만 사용가능
 dp – 숫자가 높아질수록 낮은 해상도에서 처리, 1이면 원본 해상도, 2이면 절반 해상도     
 minDist – 찾아낸 원의 중점 사이의 최대 거리, 즉 크면 클수록 원이 적게 잡힘  
 param1 – 크면 클수록 원이 적개 잡힘, 원 중심 잡는 thresh hold 값 상승  
-param2 – 크면 클수록 원이 적게 잡힘  
+param2 – 크면 클수록 원이 적게 잡힘  --- 이 값이 결과에 제일 영향을 많이 끼침
 minRadius – Minimum circle radius.  
 maxRadius – Maximum circle radius.  
 
